@@ -1,4 +1,4 @@
 Para instalar:
 
-curl -sSL https://github.com/AmaralMarti/prepare-ubuntu-dev-server/blob/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/AmaralMarti/prepare-ubuntu-dev-server/main/install.sh | bash
 
