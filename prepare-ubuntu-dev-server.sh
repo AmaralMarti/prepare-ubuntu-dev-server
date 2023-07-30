@@ -48,6 +48,12 @@ for opcao in $opcoes; do
             install_neofetch
             ;;
         12)
+            install_bashtop
+            ;;
+        13)
+            install_ncdu
+            ;;
+        14)
             source options/install_asdf.sh
             install_asdf
             ;;

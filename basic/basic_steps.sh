@@ -37,3 +37,13 @@ install_neofetch() {
     echo "Instalando neofetch..."
     sudo apt install -y neofetch
 }
+
+install_bashtop() {
+    echo "Instalando bashtop..."
+    sudo apt install -y bashtop
+}
+
+install_ncdu() {
+    echo "Instalando ncdu..."
+    sudo apt install -y ncdu
+}

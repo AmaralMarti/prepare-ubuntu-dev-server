@@ -16,7 +16,9 @@ get_options() {
     9 "Instalar htop" on \
     10 "Instalar net-tools" on \
     11 "Instalar neofetch" on \
-    12 "Instalar ASDF para o USUARIO ATUAL" off \
+    12 "Instalar bashtop" on \
+    13 "Instalar ncdu" on \
+    14 "Instalar ASDF para o USUARIO ATUAL" off \
     )
 
     # Verifica se o usuário pressionou Esc ou Cancelar
