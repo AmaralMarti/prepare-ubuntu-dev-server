@@ -6,3 +6,8 @@ install_docker() {
     sudo apt update
     sudo apt install -y docker-ce docker-ce-cli containerd.io
 }
+
+run_without_sudo() {
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
+}

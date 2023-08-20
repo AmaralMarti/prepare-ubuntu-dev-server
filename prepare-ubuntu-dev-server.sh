@@ -57,6 +57,10 @@ for opcao in $opcoes; do
             source options/install_asdf.sh
             install_asdf
             ;;
+        15)
+            source options/install_docker.sh
+            run_without_sudo
+            ;;
 
     esac
 done
