@@ -7,8 +7,8 @@ get_options() {
     --checklist "Preparacao do Servidor Ubuntu 22.04 LTS:" 0 0 0 \
     1 "Instalar ZSH com Oh My Zsh" on \
     2 "Criar um usuario" on \
-    3 "Instalar e habilitar servidor SSH" on \
-    4 "Ativar acesso SSH como root" on \
+    3 "Instalar e habilitar servidor SSH" off \
+    4 "Ativar acesso SSH como root" off \
     5 "Instalar Docker" on \
     6 "Instalar Speedtest by Ookla" on \
     7 "Instalar vim" on \
@@ -19,6 +19,7 @@ get_options() {
     12 "Instalar bashtop" on \
     13 "Instalar ncdu" on \
     14 "Instalar ASDF para o USUARIO ATUAL" off \
+    15 "Executar Docker sem utilizar sudo" off \
     )
 
     # Verifica se o usuário pressionou Esc ou Cancelar
